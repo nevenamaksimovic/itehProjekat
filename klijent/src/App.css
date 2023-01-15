@@ -1,0 +1,113 @@
+.main{
+  height: 100vh;
+  overflow-x: auto;
+}
+.container{
+  padding: 80px 10%;
+}
+
+.header{
+  padding-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+.navigation{
+  height: 100vh;
+  background-color: #43515e !important;
+  color: white !important; 
+  font-size: 22px;
+  font-weight: 400;
+ 
+}
+.navigation>div{
+  background-color: #43515e !important;
+  color: white !important; 
+  font-size: 22px;
+  font-weight: 400;
+}
+.navBody>*{
+  background-color: #43515e !important;
+  color: white !important; 
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.mainFistSection{
+  background-image: url(https://teadentstudio.rs/wp-content/uploads/2016/11/home-slide.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.homeTitle{
+  font-size: 34px;
+  font-weight: 300;
+  color: white;
+}
+
+.mainSecondSection{
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+  height: 600px;
+}
+
+.title{
+  font-size: 28px;
+  font-weight: 300;
+}
+.content{
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  word-wrap: break-word;
+}
+.padding{
+  padding-top: 20px;
+}
+.paddingAll{
+  padding: 20px;
+}
+
+.serviceCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid rgba(20, 32, 65, 0.15);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+.serviceCardHeader{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.serviceCardPrice{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+.serviceCardDesc{
+  font-size: 16px;
+  font-weight: 400;
+
+}
+.fluid{
+  width: 100%;
+}
+
+.fluid>*{
+  width: 100%;
+}
+
+.ordinationProp{
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  word-spacing: 3px;
+}
