@@ -1,5 +1,5 @@
 
-export interface Dentist {
+export interface Doctor {
   id: number,
   firstName: string,
   lastName: string,
@@ -36,7 +36,7 @@ export interface Intervention {
   user: User,
   createdAt: string,
   status: 'pending' | 'accepted' | 'rejected' | 'finished',
-  dentist?: Dentist,
+  doctor?: Doctor,
   start: string,
   end?: string,
   items: InterventionItem[]
@@ -44,7 +44,7 @@ export interface Intervention {
 export interface ChangeInterventinDto {
   start: Date,
   end: Date,
-  dentistId: number,
+  doctorId: number,
   status: 'pending' | 'accepted' | 'rejected' | 'finished',
   items: ChangeItemDto[]
 }

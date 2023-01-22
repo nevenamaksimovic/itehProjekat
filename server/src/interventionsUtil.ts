@@ -1,4 +1,4 @@
-import { Dentist } from "./entity/Doctor";
+import { Doctor } from "./entity/Doctor";
 import { Intervention } from "./entity/Intervention";
 import { Service } from "./entity/Service";
 import { User } from "./entity/User";
@@ -8,7 +8,7 @@ export interface InterventionDto {
   user: User,
   createdAt: Date,
   status: 'pending' | 'accepted' | 'rejected' | 'finished',
-  dentist: Dentist,
+  doctor: Doctor,
   start: Date,
   end?: Date,
   items?: InterventionItemDto[]
@@ -27,7 +27,7 @@ export function fromIntervention(intervention: Intervention) {
     user: intervention.user,
     createdAt: intervention.createdAt,
     status: intervention.status,
-    dentist: intervention.dentist,
+    doctor: intervention.doctor,
     start: intervention.start,
     end: intervention.end,
     items: intervention.items ? intervention.items.map(item => {
